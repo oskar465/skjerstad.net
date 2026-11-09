@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>skjerstad.net AS</title>
+  <meta name="description" content="skjerstad.net AS er et investeringsselskap eid og drevet av Tronn Å. Skjerstad, med investeringer innen media, telekom og energi.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --ink: #111;
+      --muted: #666;
+      --line: #e4e4e4;
+      --bg: #fff;
+      --wrap: 44rem;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 1.25rem; }
+
+    header.wrap { padding-top: 4.5rem; padding-bottom: 3rem; text-align: center; }
+    header img { width: 150px; height: auto; display: block; margin: 0 auto 2.5rem; }
+    h1 {
+      margin: 0;
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .role { margin: .35rem 0 0; color: var(--muted); }
+
+    section { padding: 2.5rem 0; border-top: 1px solid var(--line); }
+    h2 {
+      margin: 0 0 1rem;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    p { margin: 0 0 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    .portfolio {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .portfolio li { background: var(--bg); }
+    .portfolio a {
+      display: block;
+      height: 100%;
+      padding: 1.25rem 1.25rem 1.1rem;
+      text-decoration: none;
+    }
+    .portfolio a:hover { background: #f6f6f6; }
+    .portfolio strong { display: block; font-size: 1.125rem; }
+    .portfolio span { display: block; color: var(--muted); font-size: .95rem; }
+    .portfolio em { display: block; margin-top: .6rem; font-style: normal; font-size: .85rem; color: var(--muted); }
+
+    .contact { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
+    .contact a { font-size: 1.125rem; }
+
+    footer.wrap { padding-bottom: 3rem; color: var(--muted); font-size: .85rem; }
+    footer p { margin: 0; padding-top: 2rem; border-top: 1px solid var(--line); }
+
+    @media (max-width: 520px) {
+      header.wrap { padding-top: 3rem; }
+      .portfolio { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <img src="logo.svg" alt="skjerstad.net" width="150" height="97">
+    <h1>Tronn Åskar Skjerstad</h1>
+    <p class="role">Eier og daglig leder, skjerstad.net AS</p>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Om selskapet</h2>
+      <p>Tronn Å. Skjerstad eier og driver skjerstad.net AS som et investeringsselskap. Investeringene er i hovedsak innenfor media-, telekom- og energisektoren.</p>
+    </section>
+
+    <section>
+      <h2>Investeringer</h2>
+      <ul class="portfolio">
+        <li><a href="https://www.happybytes.no" target="_blank" rel="noopener">
+          <strong>Happybytes</strong><span>Mobilselskap</span><em>happybytes.no ↗</em></a></li>
+        <li><a href="https://www.ludenso.com" target="_blank" rel="noopener">
+          <strong>Ludenso</strong><span>Ed tech</span><em>ludenso.com ↗</em></a></li>
+        <li><a href="https://www.faracycling.com" target="_blank" rel="noopener">
+          <strong>Fara Cycling</strong><span>Norsk sykkelaktør</span><em>faracycling.com ↗</em></a></li>
+        <li><a href="https://www.becour.com" target="_blank" rel="noopener">
+          <strong>Becour</strong><span>Energiselskap</span><em>becour.com ↗</em></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kompetanse</h2>
+      <p>Skjerstad har spesialkompetanse i utvikling og implementering av konkurransestrategi i det nordiske tele-, media- og IT-markedet. Han har blant annet operativ erfaring fra kjøp og salg av markedsrettigheter for tv og reklame, gjennomføring av fusjoner og oppkjøp og utvikling av forretningsmodeller for etablerte aktører og innovatører.</p>
+    </section>
+
+    <section>
+      <h2>Bakgrunn</h2>
+      <p>Tronn Å. Skjerstad har bakgrunn som leder, gründer og rådgiver. Han er Associate Professor og mentor ved UiO og NTNU, har en doktorgrad i strategi fra NTNU industriell økonomi og er siviløkonom fra NHH.</p>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <div class="contact">
+        <a href="mailto:tronn@skjerstad.net">tronn@skjerstad.net</a>
+        <a href="tel:+4799080000">+47 990 80 000</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap"><p>© 2026 skjerstad.net AS</p></footer>
+</body>
+</html>
